@@ -54,7 +54,7 @@ export const FocusTimerView: React.FC<FocusTimerViewProps> = ({
     const [sessionsCompletedToday, setSessionsCompletedToday] = useState(0);
     const [justFinished, setJustFinished] = useState(false);
 
-    const timerRef = useRef<NodeJS.Timeout | null>(null);
+    const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
     // Get current mode duration in seconds
     const getModeDurationSeconds = (m: TimerMode) => {
