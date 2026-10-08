@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle background -->
+  <circle cx="64" cy="64" r="60" fill="#FEF3C7" stroke="#F59E0B" stroke-width="4"/>
+  <!-- Elizabeth Head/Body -->
+  <path d="M 32 108 C 30 70 34 32 64 24 C 94 32 98 70 96 108 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Deadpan Eyes -->
+  <circle cx="53" cy="54" r="9" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+  <circle cx="54" cy="54" r="2.8" fill="#1E293B"/>
+  <circle cx="75" cy="54" r="9" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+  <circle cx="74" cy="54" r="2.8" fill="#1E293B"/>
+  <!-- Yellow Beak -->
+  <path d="M 46 76 C 46 67 55 64 64 64 C 73 64 82 67 82 76 C 82 82 73 86 64 86 C 55 86 46 82 46 76 Z" fill="#FBBF24" stroke="#1E293B" stroke-width="3"/>
+  <line x1="48" y1="76" x2="80" y2="76" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
